@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 3%;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.divCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    justify-content: center;
+}
+
+.card {
+    width: 45%;
+    padding: 3%;
+    box-sizing: border-box;
+    border: 2px solid pink;
+    border-radius: 50px;
+    text-align: center;
+}  
+
+
+
+
+ *  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 247, 245);
+}
+
+header img {
+   width: 25%;
+   height: auto;
+   margin: 2%;
+}
+
+
+
+
