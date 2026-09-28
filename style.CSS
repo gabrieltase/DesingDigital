@@ -22,18 +22,19 @@ nav ul {
 .divCards {
   display: flex;
   flex-wrap: wrap;
-  gap: 1%;
-  margin: 1%;
   justify-content: center;
 }
 
-.card {
-  width: 45%;
-  padding: 3%;
+.divCards .card {
+  width: 48%;
   margin: 1%;
+  padding: 15px;
+
   box-sizing: border-box;
-  border: 2px solid pink;
-  border-radius: 25%;
+
+  border: none;
+  border-radius: 20px;
+
   text-align: center;
 }
 
